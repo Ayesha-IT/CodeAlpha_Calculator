@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeAlpha | Modern Calculator</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--========== Calculator Container ==========-->
+
+    <div class="container">
+
+        <div class="calculator">
+
+            <!-- Header -->
+
+            <div class="header">
+
+                <h2><i class="fa-solid fa-calculator"></i> Calculator</h2>
+
+                <button id="theme-btn">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+            </div>
+            <p class="subtitle">
+
+             Modern Scientific Calculator
+
+           </p>
+
+            <!-- Display -->
+
+            <input type="text" id="display" readonly>
+
+            <!-- Buttons -->
+
+            <div class="buttons">
+
+                <button class="operator clear">AC</button>
+                <button class="operator backspace">⌫</button>
+                <button class="operator">%</button>
+                <button class="operator">/</button>
+
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operator">*</button>
+
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operator">-</button>
+
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operator">+</button>
+
+                <button>0</button>
+                <button>.</button>
+                <button class="equal">=</button>
+
+            </div>
+
+             <!-- Copy Result Button -->
+            <button class="copy-btn">
+
+       <i class="fa-solid fa-copy"></i>
+
+        Copy Result
+
+       </button>
+
+        <!-- History Panel -->
+
+        <div class="history">
+
+    <div class="history-header">
+
+        <h3>
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            History
+        </h3>
+
+        <button id="clear-history">
+            Clear
+        </button>
+
+    </div>
+
+    <ul id="history-list">
+
+        <li>No calculations yet</li>
+
+    </ul>
+
+  </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            © 2026 | Developed by
+
+            <strong>Ayesha Maqsood</strong>
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
